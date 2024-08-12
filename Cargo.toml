@@ -2,6 +2,11 @@
 name = "rgssad"
 version = "0.2.0"
 authors = ["lux.r.ck <lux.r.ck@gmail.com>"]
+edition = "2021"
 
 [dependencies]
-regex = "1"
+regex = "1.10.6"
+walkdir = "2.5.0"
+
+[profile.release]
+lto = true

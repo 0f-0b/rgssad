@@ -1,12 +1,15 @@
-#### Description
+# rgssad
+
 Extract `rgssad` / `rgss2a` / `rgss3a` files.
 
-#### Usage
-```
+## Usage
+
+```text
 Commands:
     help
     version
-    list        <archive>
-    unpack      <archive> <folder> [<filter>]
-    pack        <folder> <archive> [<version>]
+    list <archive>
+    unpack <archive> <dir> [<filter>]
+    pack <dir> <archive> [<version>]
+    repack <dir> <archive> <template>
 ```
